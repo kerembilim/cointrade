@@ -242,13 +242,20 @@ header .social-icon li a
 	}
 .element {
 	height: 60px;
-	font-size: 16px;
+	font-size: 20px;
 }
 /* end home */
 
+#price
+{
+	padding-bottom: 32px;
+	padding-top: 32px;
+	background: #202020;
+}
+
 /* start about */
 #about{
-	background: #202020;
+	
 }
 
 #about .media-heading-wrapper
