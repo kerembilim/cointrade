@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { DashboardModule } from './dashboard/dashboard.module';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
